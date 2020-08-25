@@ -1,0 +1,117 @@
+body {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 1.10em;
+    margin: 0;
+}
+
+header {
+    background-color: #007FFF;
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    color: #000000;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    text-align: center;
+}
+
+#app {
+    display: none;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+div {
+    color: #000000;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    margin: 0.10em;
+    padding: 0.25em;
+}
+
+input {
+    font-size: 1.10em;
+    min-width: 18em;
+    text-align: center;
+}
+
+button {
+    background-color: #D4D4D4;
+    border: 0;
+    border-radius: 25px;
+    color: #000000;
+    font-size: 0.80em;
+    font-weight: 600;
+    margin: 0.5em;
+    min-height: 2em;
+    min-width: 20em;
+    padding: 0.25em;
+}
+
+button:hover {
+    background-color: #007FFF;
+    color: #FFFFFF;
+}
+
+#message {
+    color: #000000;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: left;
+}
+
+.divider {
+    border-top: 0.10em #000000 dashed;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 50%;
+}
+
+.data_table_title {
+    font-weight: bold;
+    margin: 0;
+    padding: 0.25em;
+}
+
+footer {
+    background-color: #888888;
+    bottom: 0;
+    color: #000000;
+    font-size: 0.80em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: #000000;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+}

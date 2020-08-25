@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rubber_pphr_to_wt</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
+    </head>
+    <body>
+        <header>rubber_pphr_to_wt</header>
+        <noscript><h1>Please enable JavaScript and reload the app.</h1></noscript>
+        <script src="script.js"></script>
+        <div id="app">
+            <div>
+                <p>Material</p>
+                <input id="material" type="text">
+                <p>Parts Per Hundred Rubber</p>
+                <input id="pphr" type="text">
+                <br>
+                <button id="btn_material">Insert material</button>
+                <p>Total Compound Weight / kg(s)</p>
+                <input id="weight" type="text">
+                <br>
+                <button id="btn_result">Result</button>
+                <br>
+                <button id="btn_reset">Reset</button>
+            </div>
+            <div id="message">Status: Ready</div>
+            <div class="divider"></div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="data_table_title">Material</td>
+                            <td class="data_table_title">Parts Per Hundred Rubber</td>
+                        </tr>
+                    </thead>
+                </table>
+                <table id="data_table"></table>
+            </div>
+        </div>
+        <footer>Static web app version of <a href="https://github.com/angsy/rubber_pphr_to_wt" target="_blank">rubber_pphr_to_wt</a> project.</footer>
+    </body>
+</html>
